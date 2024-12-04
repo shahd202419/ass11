@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>login</title>
+</head>
+<body>
+    <div class="my-5 py-4 w-50 mx-auto px-5 form" >
+        <h1 class="text-center text-info py-3">Smart Login System</h1>
+        <input type="text" placeholder="Enter Your Name" class="form-control mb-3 name" >
+        <input type="email" placeholder="Enter Your Email" class="form-control mb-3 email" >
+        <input type="password" placeholder="Enter your password" class="form-control mb-3 password">
+        <div class="alert  text-center text-danger d-none one" role="alert">
+           invalid Email or password or name
+          </div>
+          <div class="alert  text-success text-center d-none two" role="alert">
+            Success
+          </div>
+          <div class="alert  text-danger text-center d-none three" role="alert">
+            email already exists
+          </div>
+        <button class="btn w-100 btn-outline-info one">Sign Up</button>
+        <p class="text-center text-white py-3"> You have an account? <a href="index.html" class="text-decoration-none fw-medium"> Sign In</a></p>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
